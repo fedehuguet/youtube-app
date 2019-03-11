@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Search videos
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="padding-left:50px;">
+        Search videos
+      </h1>
+      <form style="padding-left:50px;">
+        <div style="margin-right: 50px; display: inline-block;">
+          <div>
+              <label>
+                  Video title
+              </label>
+          </div>
+          <div><input type="text" id="item-name" placeholder="" style="height: 30px; width: 200px;"></div>
+        </div>
+        <div style="display:inline-block;">
+          <button type="submit" id="btnAdd" class="confirm">
+            Submit
+          </button>
+        </div>
+      </form>
+      <ul id="item-list" style="list-style:none;width:30%;">
+      </ul>
+      <button type="submit" id="btnPrevious" class="confirm" style="margin-left:50px;display: none;">
+        Show less
+      </button>
+      <button type="submit" id="btnNext" class="confirm" style="margin-left:50px;display: none;">
+        Show more
+      </button>
+    </div>
+  </body>
+</html>
